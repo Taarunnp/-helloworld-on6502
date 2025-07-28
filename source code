@@ -1,6 +1,6 @@
 ; 64TASS
 ; hello.asm
- 
+  
 KERNAL_CLEAR_SCREEN = $e544 ; KERNAL ROM routine.
 VICSCN = $0400              ; VIC-II Screen Video Matrix, 1024 (int).
 
