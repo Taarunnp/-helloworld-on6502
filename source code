@@ -7,7 +7,7 @@ VICSCN = $0400              ; VIC-II Screen Video Matrix, 1024 (int).
  
 ; BASIC loader. 
 *=$0801             ; The two byte load address at the start of the .PRG file.
-    .byte $0b, $08  ; Linked list pointer to next line of BASIC.
+    .byte $0b, $08  ; Linked list pointer to next line of BASIC. 
     .byte $d9, $07  ; 2009 (int) line number (LO, HI). 
     .byte $9e       ; BASIC SYS token.
     .text "2064"    ; Memory address (int) to start of ASM: $0810
