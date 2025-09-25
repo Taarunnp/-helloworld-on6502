@@ -4,7 +4,7 @@
 KERNAL_CLEAR_SCREEN = $e544 ; KERNAL ROM routine.     
 VICSCN = $0400              ; VIC-II Screen Video Matrix, 1024 (int).  
   
-
+ 
 ; BASIC loader. 
 *=$0801             ; The two byte load address at the start of the .PRG file.
     .byte $0b, $08  ; Linked list pointer to next line of BASIC.
